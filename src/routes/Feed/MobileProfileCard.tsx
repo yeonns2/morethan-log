@@ -43,6 +43,7 @@ const StyledWrapper = styled.div`
   > .top {
     padding: 0.25rem;
     margin-bottom: 0.75rem;
+    font-weight: 700;
   }
   > .mid {
     padding: 0.5rem;
@@ -52,14 +53,13 @@ const StyledWrapper = styled.div`
       theme.scheme === "light" ? "white" : theme.colors.gray4};
     > .wrapper {
       display: flex;
-      gap: 0.5rem;
+      gap: 1rem;
       align-items: center;
       > .wrapper {
         height: fit-content;
         > .top {
           font-size: 1.25rem;
           line-height: 1.75rem;
-          font-style: italic;
           font-weight: 700;
         }
         > .mid {
@@ -72,6 +72,9 @@ const StyledWrapper = styled.div`
           font-size: 0.875rem;
           line-height: 1.25rem;
         }
+      }
+      img{
+        border-radius: 50%;
       }
     }
   }
