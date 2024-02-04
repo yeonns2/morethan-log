@@ -2,23 +2,31 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "An Jungyeon",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Software Engineer",
-    bio: "hello",
+    image: "/avatar.jpg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "software engineer",
+    bio: "loves to build loved things",
     email: "yeonns2@gmail.com",
-    linkedin: "yeonns2",
+    linkedin: "",
     github: "yeonns2",
     instagram: "anorderly",
   },
   projects: [
     {
-      name: `an-orderly-log`,
-      href: "https://github.com/yeonns2/morethan-log",
+      name: "creplanet 💜",
+      href: "https://creplanet.co.kr/",
+    },
+    {
+      name: "creplanet-biz ❤️",
+      href: "https://biz.creplanet.co.kr/",
+    },
+    {
+      name: `inketing 💙`,
+      href: "https://www.inketing.co.kr/home/advertiser",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "an-orderly-log",
+    title: `An Orderly Log`,
     description: "welcome to an-orderly-log!",
   },
 
